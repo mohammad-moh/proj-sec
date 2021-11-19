@@ -1,5 +1,8 @@
 @extends('layout.main')
-
+@section('title', 'About Me')
 @section('contact')
- About Me page
+
+<h1>About Me page </h1>
+
+
 @endsection
