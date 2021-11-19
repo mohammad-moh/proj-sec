@@ -24,3 +24,7 @@ Route::get('/nav', function(){
 Route::get('/home', function(){
     return view('layout.home');
 });
+
+Route::get('/about-me', function(){
+    return view('layout.aboute_me');
+} );

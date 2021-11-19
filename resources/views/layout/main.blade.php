@@ -15,6 +15,11 @@
 
     @include('layout.navbar')
 
+
+    @section('contact')
+
+    @show
+
     @include('layout.footer')
      <!-- Optional JavaScript; choose one of the two! -->
 
