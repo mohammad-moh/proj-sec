@@ -28,3 +28,7 @@ Route::get('/home', function(){
 Route::get('/about-me', function(){
     return view('layout.aboute_me');
 } );
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
