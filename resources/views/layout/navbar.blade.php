@@ -25,14 +25,18 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-
+        
+        <li class="nav-item">
+            <a class="nav-link active text underline" href="{{ route('login') }}">Login</a>
+        </li>
+        <li>
+            <a class="nav-link active underline" href="{{ route('register') }}">Register</a>
+        </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
     </form>
-    <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
-    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
 
     </div>
 
